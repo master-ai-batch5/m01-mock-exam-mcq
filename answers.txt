@@ -16,7 +16,13 @@
 14. a
 15. ab   <= checked with Quentin
 16. bd
-17. abc  <= Currently being discussed on Discord
+17. bc   <= Checked with Maryam
+    a) A is invertible, but it may not be diagonalizable ==> FALSE
+    b) A is invertible ==> det must be != 0 ==> det is product of eigenvalues ==> none of them can be 0, or their product would be 0. ==> TRUE
+    c) B has stric. positive eigenvalues ==> all eigenvalues are non-zero ==> their product is non zero ==> det(B) != 0 => matrix is invertible ==> TRUE
+    d) eigenvalues and symmetry have nothing to do with each other ==> FALSE (that's not a proof, that's a way to answer the question quickly in an MCQ - you could search for a counter example as a proof)
+    e) yes it can be, it'll just have 0 on the diagonal. Example: (0), ie: the number 0, as a 1x1 matrix has 1 eigenvalue == 0, and is already in diagonal form... ==> FALSE
+    f) no. one of them could be 0, and cf answer b) above... ==> FALSE 
 18. ad
 19. b
     responses c and d are unclear:
