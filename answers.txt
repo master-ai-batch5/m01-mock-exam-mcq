@@ -6,12 +6,12 @@
 6. b
 7. abd   <= checked with Benjamin ("c" is a set of k vectors, not a linear combination of these vectors. It is therefore not a subspace.)
 8. d
-9. ae
+9. a      <= checked with Quentin
 10. bde   <= checked with Quentin (this question is debatable, see below)
     dg: rank is exactly 3... I don't know what you mean with "at most"
     e: hyperplane of dim 3 - or do you mean hyperplanes always have dim 2? It wasn't introduced in the course
-11. ad
-12. a
+11. bc    <= checked with Quentin
+12. c     <= checked with Quentin
 13. ae
 14. a
 15. ab   <= checked with Quentin
@@ -23,7 +23,8 @@
     d) eigenvalues and symmetry have nothing to do with each other ==> FALSE (that's not a proof, that's a way to answer the question quickly in an MCQ - you could search for a counter example as a proof)
     e) yes it can be, it'll just have 0 on the diagonal. Example: (0), ie: the number 0, as a 1x1 matrix has 1 eigenvalue == 0, and is already in diagonal form... ==> FALSE
     f) no. one of them could be 0, and cf answer b) above... ==> FALSE 
-18. ad
+18. d   <= Checked with Quentin
+    a is a trap: double check the product expression: the lambdas are 0, 1, and 1 (not -1!) so the trace is 2, not 0.
 19. bc  <= checked with Ina (https://moodle.fernuni.ch/mod/forum/discuss.php?d=75891)
     the question does not SAY "strictly" positive eigenvalues, but they MEAN it
     if one eigenvalue were 0, then matrix would not be invertible, which impacts c) and d)
