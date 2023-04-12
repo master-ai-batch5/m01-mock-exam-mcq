@@ -29,7 +29,9 @@
     the question does not SAY "strictly" positive eigenvalues, but they MEAN it
     if one eigenvalue were 0, then matrix would not be invertible, which impacts c) and d)
 20. abcd
-21. ce
+21. be   <= not sure
+    b) and not c) - Quentin mention there is a trick because lambda3==0, but we dont remember.
+    I asked: https://moodle.fernuni.ch/mod/forum/view.php?f=13752
 22. e
 23. d
 24. b
