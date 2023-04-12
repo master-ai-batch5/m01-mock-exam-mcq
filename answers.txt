@@ -4,7 +4,11 @@
 4. bdf
 5. bdf   <= checked with Quentin (compute the pivots as a f/o of alpha)
 6. b
-7. abd   <= checked with Benjamin ("c" is a set of k vectors, not a linear combination of these vectors. It is therefore not a subspace.)
+7. d   <= checked with Benjamin and Cédric
+    a is not a subspace, because it does not contain the zero vector
+    b is not a subspace, because it does not contain the zero vector
+    c is a set of k vectors, not a linear combination of these vectors. It is therefore not a subspace.
+    d is a subspace
 8. d
 9. a      <= checked with Quentin
 10. bde   <= checked with Quentin (this question is debatable, see below)
@@ -16,7 +20,7 @@
 14. a
 15. ab   <= checked with Quentin
 16. bd
-17. bc   <= Checked with Maryam and Quentin
+17. b    <= Checked with Maryam and Quentin
     a) A is invertible, but it may not be diagonalizable ==> FALSE
     b) A is invertible ==> det must be != 0 ==> det is product of eigenvalues ==> none of them can be 0, or their product would be 0. ==> TRUE
     c) B is invertible, but it may not be diagonalizable ==> FALSE
