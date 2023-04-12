@@ -4,24 +4,24 @@
 4. bdf
 5. bdf   <= checked with Quentin (compute the pivots as a f/o of alpha)
 6. b
-7. abcd
+7. abd   <= checked with Benjamin ("c" is a set of k vectors, not a linear combination of these vectors. It is therefore not a subspace.)
 8. d
 9. ae
 10. bde   <= checked with Quentin (this question is debatable, see below)
-	dg: rank is exactly 3... I don't know what you mean with "at most"
-	e: hyperplane of dim 3 - or do you mean hyperplanes always have dim 2? It wasn't introduced in the course
+    dg: rank is exactly 3... I don't know what you mean with "at most"
+    e: hyperplane of dim 3 - or do you mean hyperplanes always have dim 2? It wasn't introduced in the course
 11. ad
 12. a
 13. ae
 14. a
 15. ab   <= checked with Quentin
 16. bd
-17. abc
+17. abc  <= Currently being discussed on Discord
 18. ad
-19. b (+ c & d are unclear)
-	responses c and d are unclear:
+19. b
+    responses c and d are unclear:
     - question does not say _strictly_ positive eigenvalues
-    - if one is 0, then matrix is not invertible
+    - if one eigenvalue is 0, then matrix is not invertible
     - if they meant strictly positive, I don't know the answer
 20. abcd
 21. ce
