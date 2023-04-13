@@ -33,9 +33,19 @@
     the question does not SAY "strictly" positive eigenvalues, but they MEAN it
     if one eigenvalue were 0, then matrix would not be invertible, which impacts c) and d)
 20. abcd
-21. be   <= not sure
-    b) and not c) - Quentin mention there is a trick because lambda3==0, but we dont remember.
-    I asked: https://moodle.fernuni.ch/mod/forum/view.php?f=13752
+21. be   <= checked with Ina (https://moodle.fernuni.ch/mod/forum/view.php?f=13752)
+    e TRUE (this is the correct relation between lambdas and sigmas) ==> a & d must be FALSE   
+    b TRUE (see below) ==> c must be FALSE
+        A is symmetric => eigenvectors are orthogonal => diagonalizable via an orthonormal matrix: A = U Lambda U^T (U inverse = U transposed)
+        - proof#1:
+            u3 can be computed as cross-product
+            => we can compute U
+            => we can compute A
+            => b is TRUE (NB: would also work if lambda3 were not 0)
+        - proof#2:
+            when computing U Lambda U^T, components of u_3 are multiplied by lambda3=0, so they don't matter
+            => we can compute A without needing u_3
+            => b is TRUE (would also work if there were more missing eigenvectors with eigenvalues = 0)
 22. e
 23. d
 24. b
